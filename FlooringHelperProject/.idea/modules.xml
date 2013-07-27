@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/FlooringHelper/FlooringHelper.iml" filepath="$PROJECT_DIR$/FlooringHelper/FlooringHelper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FlooringHelperProject.iml" filepath="$PROJECT_DIR$/FlooringHelperProject.iml" />
+    </modules>
+  </component>
+</project>
+
