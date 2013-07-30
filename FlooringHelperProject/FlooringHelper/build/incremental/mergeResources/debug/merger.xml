@@ -46,9 +46,17 @@
                 qualifiers="" >
                 <string name="action_settings" >Settings
                 </string>
+                <string name="title_activity_add_building" >Add Building
+                </string>
+                <string name="title_room_list" >Rooms
+                </string>
                 <string name="app_name" >Flooring Helper
                 </string>
-                <string name="hello_world" >Hello world!
+                <string name="title_room_detail" >Room Detail
+                </string>
+                <string name="title_activity_rooms_list" >Rooms List Activity
+                </string>
+                <string name="hello_world" >Hello World!
                 </string>
             </file>
             <file
@@ -104,6 +112,44 @@
                     <!-- API 14 theme customizations can go here. -->
                 </style>
             </file>
+            <file
+                name="activity_add_building"
+                path="C:\Users\gottabcb\AndroidStudioProjects\FlooringHelperProject\FlooringHelper\src\main\res\layout\activity_add_building.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="add_building"
+                path="C:\Users\gottabcb\AndroidStudioProjects\FlooringHelperProject\FlooringHelper\src\main\res\menu\add_building.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="C:\Users\gottabcb\AndroidStudioProjects\FlooringHelperProject\FlooringHelper\src\main\res\values-large\refs.xml"
+                qualifiers="large" >
+                <item
+                    name="activity_room_list"
+                    type="layout">
+@layout/activity_room_twopane
+                </item>
+            </file>
+            <file
+                path="C:\Users\gottabcb\AndroidStudioProjects\FlooringHelperProject\FlooringHelper\src\main\res\values-sw600dp\refs.xml"
+                qualifiers="sw600dp" >
+                <item
+                    name="activity_room_list"
+                    type="layout">
+@layout/activity_room_twopane
+                </item>
+            </file>
+            <file
+                name="rooms_list"
+                path="C:\Users\gottabcb\AndroidStudioProjects\FlooringHelperProject\FlooringHelper\src\main\res\menu\rooms_list.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="activity_rooms_list"
+                path="C:\Users\gottabcb\AndroidStudioProjects\FlooringHelperProject\FlooringHelper\src\main\res\layout\activity_rooms_list.xml"
+                qualifiers=""
+                type="layout" />
         </source>
         <source path="C:\Users\gottabcb\AndroidStudioProjects\FlooringHelperProject\FlooringHelper\build\res\rs\debug" />
     </dataSet>

@@ -1,13 +1,17 @@
 # incremental data. DO NOT EDIT.
 # format is <lastModified> <length> <SHA-1> <path>
 # Encoding is UTF-8
-1374508696119 784 3c14b6e74a749674ef7afdc32c7a49fcca9ec4d8 C:\Users\gottabcb\AndroidStudioProjects\FlooringHelperProject\FlooringHelper\build\res\all\debug\layout\activity_main.xml
+1375129242078 836 9aa26e3f7322c3dbc8de5ed0cae8048d4f542ced C:\Users\gottabcb\AndroidStudioProjects\FlooringHelperProject\FlooringHelper\build\res\all\debug\layout\activity_rooms_list.xml
 1374508696204 368 e673b28e1ea9f38b92a73493275663bc2c04c6b4 C:\Users\gottabcb\AndroidStudioProjects\FlooringHelperProject\FlooringHelper\build\res\all\debug\menu\main.xml
 1374508696732 12613 57fa3ee82465482b8f10e4dcad80f908921eaf89 C:\Users\gottabcb\AndroidStudioProjects\FlooringHelperProject\FlooringHelper\build\res\all\debug\drawable-xhdpi\ic_launcher.png
+1375129242071 374 be565aa9f56e6665565772a49733b2e56b1c5e53 C:\Users\gottabcb\AndroidStudioProjects\FlooringHelperProject\FlooringHelper\build\res\all\debug\menu\rooms_list.xml
+1375047092178 1202 f3be84142971dd9833385023f3c7551d64cab718 C:\Users\gottabcb\AndroidStudioProjects\FlooringHelperProject\FlooringHelper\build\res\all\debug\layout\activity_add_building.xml
+1374508696755 4147 7ed6acbbaee74c5e5a642a4ccbb1ff63f07a1bdd C:\Users\gottabcb\AndroidStudioProjects\FlooringHelperProject\FlooringHelper\build\res\all\debug\drawable-mdpi\ic_launcher.png
+1375047092290 376 641cfbad471b829ca10cf222187691466cdcef38 C:\Users\gottabcb\AndroidStudioProjects\FlooringHelperProject\FlooringHelper\build\res\all\debug\menu\add_building.xml
+1374508696660 362 8cf0b3285ced0688719c9aa71dade436070fdedf C:\Users\gottabcb\AndroidStudioProjects\FlooringHelperProject\FlooringHelper\build\res\all\debug\values-v14\values.xml
+1375047092188 1348 09b248e8350e5c88ab8e66a4dd61aa37e900e340 C:\Users\gottabcb\AndroidStudioProjects\FlooringHelperProject\FlooringHelper\build\res\all\debug\layout\activity_main.xml
 1374508696710 277 7a3b904cae5df0deb607df27d68d39f522d2fe14 C:\Users\gottabcb\AndroidStudioProjects\FlooringHelperProject\FlooringHelper\build\res\all\debug\values-sw720dp-land\values.xml
-1374508696619 1212 432352a7c24612b94b45203f5ff9ee2fcdf0bde9 C:\Users\gottabcb\AndroidStudioProjects\FlooringHelperProject\FlooringHelper\build\res\all\debug\values\values.xml
+1375129242184 1467 88c017587d4ebe89bd00638fa89763853634f178 C:\Users\gottabcb\AndroidStudioProjects\FlooringHelperProject\FlooringHelper\build\res\all\debug\values\values.xml
 1374508696703 8098 67e42c1c86f1c0f8d6b78030806e9487c712612c C:\Users\gottabcb\AndroidStudioProjects\FlooringHelperProject\FlooringHelper\build\res\all\debug\drawable-hdpi\ic_launcher.png
 1374508696873 24323 b1d36a09f80ef00908ee590c5f2d528841adee65 C:\Users\gottabcb\AndroidStudioProjects\FlooringHelperProject\FlooringHelper\build\res\all\debug\drawable-xxhdpi\ic_launcher.png
-1374508696755 4147 7ed6acbbaee74c5e5a642a4ccbb1ff63f07a1bdd C:\Users\gottabcb\AndroidStudioProjects\FlooringHelperProject\FlooringHelper\build\res\all\debug\drawable-mdpi\ic_launcher.png
-1374508696660 362 8cf0b3285ced0688719c9aa71dade436070fdedf C:\Users\gottabcb\AndroidStudioProjects\FlooringHelperProject\FlooringHelper\build\res\all\debug\values-v14\values.xml
 1374508696702 348 cbe9499eb5f6b56abb530a96c94512ed5c6e08b1 C:\Users\gottabcb\AndroidStudioProjects\FlooringHelperProject\FlooringHelper\build\res\all\debug\values-v11\values.xml

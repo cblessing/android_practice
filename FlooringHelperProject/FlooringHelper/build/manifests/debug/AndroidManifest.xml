@@ -10,6 +10,9 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <activity android:label="@string/title_activity_rooms_list" android:name="com.ceebee.flooringhelper.RoomsListActivity" android:parentActivityName="com.ceebee.flooringhelper.MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY" android:value="com.ceebee.flooringhelper.MainActivity"/>
+        </activity>
     </application>
 
 </manifest>

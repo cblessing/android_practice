@@ -11,13 +11,7 @@ public class Building {
     private long id;
 
     // PUBLIC STUFF
-
-    public Building(){
-        // a new building needs a name, and needs to be inserted into the database to get an id
-
-        // try to insert the new building and get its id, or throw an exception
-
-    }
+    public Building(){}
 
     public long GetID(){ return this.id; }
     public void SetID(long id){ this.id = id; }
@@ -28,14 +22,12 @@ public class Building {
     public ArrayList<Room> GetRooms(){ return this.Rooms; }
 
     public void AddRoom(Room r){
-
+        // not used yet, haven't decided if this is the way to go
     }
 
     public boolean RemoveRoom(Room r){
-        boolean removed = false;
-
-
-        return removed;
+        // not used yet, haven't decided if this is the way to go
+        return true;
     }
 
     @Override

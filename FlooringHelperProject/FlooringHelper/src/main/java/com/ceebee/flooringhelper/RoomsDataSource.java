@@ -22,7 +22,9 @@ public class RoomsDataSource {
 
     private final String buildingsRoomsQuery =  "SELECT * " +
                                                 " FROM " + DataOpenHelper.ROOMS_TABLE_NAME +
-                                                " WHERE ";
+                                                " LEFT OUTER JOIN " + DataOpenHelper.BUILDINGS_ROOMS_TABLE_NAME +
+                                                " ON " + DataOpenHelper.ROOMS_TABLE_NAME + "." + DataOpenHelper.ROOMS_ID_COLUMN + " = " + DataOpenHelper.BUILDINGS_ROOMS_TABLE_NAME + "." + DataOpenHelper.BUILDINGS_ROOMS_ROOMID_COLUMN +
+                                                " WHERE " + DataOpenHelper.BUILDINGS_ROOMS_TABLE_NAME + "." + DataOpenHelper.BUILDINGS_ROOMS_BUILDINGID_COLUMN + " = ?" ;
 
     public RoomsDataSource(Context context){
         dbHelper = new DataOpenHelper(context);
@@ -100,7 +102,7 @@ public class RoomsDataSource {
     public List<Room> GetBuildingsRooms(Building building){
         List<Room> rooms = new ArrayList<Room>();
 
-        Cursor cursor = db.query(DataOpenHelper.BUILDINGS_ROOMS_TABLE_NAME, allColumns, DataOpenHelper.BUILDINGS_ROOMS_BUILDINGID_COLUMN + " = " + building.GetID(), null, null, null, null);
+        Cursor cursor = db.rawQuery(buildingsRoomsQuery, new String[]{String.valueOf(building.GetID())});
         cursor.moveToFirst();
 
         while (!cursor.isAfterLast()){

@@ -21,7 +21,7 @@ public class DataOpenHelper extends SQLiteOpenHelper {
     public static final String ROOMS_WIDTH_COLUMN = "width";
 
     private static final String ROOMS_TABLE_CREATE =
-            "CREATE TABLE " + ROOMS_TABLE_NAME + " (" +
+            "CREATE TABLE IF NOT EXISTS " + ROOMS_TABLE_NAME + " (" +
                     ROOMS_ID_COLUMN + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
                     ROOMS_NAME_COLUMN + " TEXT NOT NULL, " +
                     ROOMS_LENGTH_COLUMN + " REAL, " +
@@ -32,7 +32,7 @@ public class DataOpenHelper extends SQLiteOpenHelper {
     public static final String BUILDINGS_NAME_COLUMN = "name";
 
     private static final String BUILDINGS_TABLE_CREATE =
-            "CREATE TABLE " + BUILDINGS_TABLE_NAME + " (" +
+            "CREATE TABLE IF NOT EXISTS " + BUILDINGS_TABLE_NAME + " (" +
                     BUILDINGS_ID_COLUMN + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
                     BUILDINGS_NAME_COLUMN + " TEXT NOT NULL);";
 
@@ -40,7 +40,7 @@ public class DataOpenHelper extends SQLiteOpenHelper {
     public static final String BUILDINGS_ROOMS_BUILDINGID_COLUMN = "buildingID";
     public static final String BUILDINGS_ROOMS_ROOMID_COLUMN = "roomID";
     private static final String BUILDINGS_ROOMS_TABLE_CREATE =
-            "CREATE TABLE " + BUILDINGS_ROOMS_TABLE_NAME + " (" +
+            "CREATE TABLE IF NOT EXISTS " + BUILDINGS_ROOMS_TABLE_NAME + " (" +
                     BUILDINGS_ROOMS_BUILDINGID_COLUMN + " INTEGER NOT NULL, " +
                     BUILDINGS_ROOMS_ROOMID_COLUMN + " INTEGER NOT NULL);";
 
